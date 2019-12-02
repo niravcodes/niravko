@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+	width:43%;
+	margin:100px auto;
+}
+#logo{
+	height:200px;
+}
+p{
+	margin-top:20px;
+	font-family: "Crimson Pro", "Georgia", serif;
+	font-size:22px;
+}
+.title{
+	margin-top:0;
+	font-family: "Staatliches", "Impact", sans;
+	font-size:40px;
+	color:#341f97;
+}
+.email{
+	color:#341f97;
+}
+
+a{
+	color:#341f97;
+	text-decoration:none;
+	font-style: italic;
+}
+a:hover{
+	text-decoration:underline;
+
+}
+@media screen and (max-width:799px){
+	#container{
+		width:80%;
+	}
+}
+
+@media (max-width:1200px) and (min-width:800px){
+	#container{
+		width:60%;
+	}
+}
